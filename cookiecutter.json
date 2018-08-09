@@ -4,6 +4,9 @@
     "project_name": "aws-ami-demo",
     "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
     "project_short_description": "A Demo of a cookie cutter repo",
-    "components": ["nginx", "mysql, "mr_bobo"],
+    "component_nginx": "n",
+    "component_gocarbon": "n",
+    "component_carbonapi": "n",
+    "component_grafana": "n",
     "debug": "n"
 }
